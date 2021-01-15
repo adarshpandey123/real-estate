@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Widget Desgine </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  
+
+
+#bottom-left
+{
+left: 30px;
+bottom: 40px;
+position: absolute;
+}
+.example1 {
+  border: 1px solid gray;
+border-radius: 25px;
+  padding: 10px;
+  box-shadow: 3px 1px 3px 2px #888888;
+  img {
+  float: left;
+}
+}
+  
+  </style>
+  
+</head>
+<body>
+
+
+
+<div id="container">
+
+<div id="bottom-left">
+
+  <div id="quote1" class=" example1" style="height:90px;width:220px;text-align:center">
+    
+	<div class="bubble-content">
+<div class="ps-bubble-title text-truncate">
+<span class="" style="color: rgb(120, 37, 243);">Aman 
+
+</span>
+</div>
+<div class="bubble-description">
+<span>Just Booked a Site Visit</span>
+ </div>
+ <div class="bubble-time">
+ <div>
+ <span>12 minute ago </span>
+ <div class="pfs-link" style="display: inline-block !important; opacity: 1 !important;">
+ <a href="#" style="color: rgb(114, 37, 243) !important; display: inline-block !important; opacity: 1 !important; font-size: 11px !important;">&nbsp; By Propacity</a>
+ </div>
+ </div>
+ </div>
+
+</div>
+ </div>
+ 
+  <div id="quote2" class=" example1" style="height:60px;width:200px;text-align:center" >  <b> abhishek </b> <br> Just Signed up </div>
+  <div id="quote3" class=" example1" style="height:60px;width:200px;text-align:center" > <b> nik </b> <br> Just Signed up </div>
+   <div id="quote4" class=" example1" style="height:60px;width:200px;text-align:center" > <b> sam </b> <br> Just Signed up </div>
+   <div id="quote5" class=" example1" style="height:60px;width:200px;text-align:center" > <b> manoj </b> <br> Just Signed up </div>
+</div>
+</div>
+
+
+<script>
+jQuery(function () {
+    var $els = $('div[id^=quote]'),
+        i = 0,
+        len = $els.length;
+
+    $els.slice(1).hide();
+	
+    setInterval(function () {
+        $els.eq(i).fadeOut(function () {
+            i = (i + 1); 
+            $els.eq(i).delay(5000).fadeIn();
+        })
+    }, 15000)
+	
+})
+
+
+
+</script>
+
+</body>
+</html>

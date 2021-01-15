@@ -1,0 +1,28 @@
+[12-Dec-2019 10:45:31 UTC] PHP Notice:  Undefined index: name in /home/joietouch/public_html/AIPL/sendmail.php on line 2
+[12-Dec-2019 10:45:31 UTC] PHP Notice:  Undefined index: email in /home/joietouch/public_html/AIPL/sendmail.php on line 3
+[12-Dec-2019 10:45:31 UTC] PHP Notice:  Undefined index: phone in /home/joietouch/public_html/AIPL/sendmail.php on line 4
+[12-Dec-2019 11:37:40 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/joietouch/public_html/AIPL/index.php on line 24
+[12-Dec-2019 11:37:47 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/joietouch/public_html/AIPL/index.php on line 24
+[12-Dec-2019 11:37:56 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/joietouch/public_html/AIPL/index.php on line 24
+[12-Dec-2019 11:54:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function myFunction() in /home/joietouch/public_html/AIPL/index.php:441
+Stack trace:
+#0 {main}
+  thrown in /home/joietouch/public_html/AIPL/index.php on line 441
+[12-Dec-2019 11:55:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function myFunction() in /home/joietouch/public_html/AIPL/index.php:441
+Stack trace:
+#0 {main}
+  thrown in /home/joietouch/public_html/AIPL/index.php on line 441
+[12-Dec-2019 11:57:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function myFunction() in /home/joietouch/public_html/AIPL/index.php:441
+Stack trace:
+#0 {main}
+  thrown in /home/joietouch/public_html/AIPL/index.php on line 441
+[28-Dec-2019 09:28:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/s2z7t2bozriv/public_html/AIPL/index.php:1) in /home/s2z7t2bozriv/public_html/AIPL/index.php on line 715
+[28-Dec-2019 09:30:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/s2z7t2bozriv/public_html/AIPL/index.php:1) in /home/s2z7t2bozriv/public_html/AIPL/index.php on line 716
+[28-Dec-2019 09:34:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/s2z7t2bozriv/public_html/AIPL/index.php:1) in /home/s2z7t2bozriv/public_html/AIPL/index.php on line 716
+[28-Dec-2019 11:41:29 UTC] PHP Notice:  Undefined index: contactno in /home/s2z7t2bozriv/public_html/AIPL/email.php on line 51
+[28-Dec-2019 11:43:52 UTC] PHP Notice:  Undefined index: contactno in /home/s2z7t2bozriv/public_html/AIPL/email.php on line 51
+[28-Dec-2019 11:43:52 UTC] PHP Warning:  file_get_contents(contents.html): failed to open stream: No such file or directory in /home/s2z7t2bozriv/public_html/AIPL/email.php on line 95
+[28-Dec-2019 11:54:56 UTC] PHP Notice:  Undefined index: contactno in /home/s2z7t2bozriv/public_html/AIPL/email.php on line 51
+[28-Dec-2019 12:06:55 UTC] PHP Notice:  Undefined index: phone in /home/s2z7t2bozriv/public_html/AIPL/index.php on line 6
+[28-Dec-2019 12:06:58 UTC] PHP Notice:  Undefined index: phone in /home/s2z7t2bozriv/public_html/AIPL/index.php on line 6
+[28-Dec-2019 12:07:14 UTC] PHP Notice:  Undefined index: phone in /home/s2z7t2bozriv/public_html/AIPL/index.php on line 6
